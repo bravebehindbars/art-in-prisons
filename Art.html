@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+
+	<link rel="stylesheet" href="art-style.css">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+		
+	</head>
+
+	<body style="background-color: black;">
+	
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top
+		</button>
+		<a href="index.html" >Home</a>
+
+
+		
+		<center>
+
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|Emboss|shadow-multiple">
+
+			<h1 class="font-effect-neon">Some of my personal ART</h1> 
+
+
+			<div class="polaroid">
+				<img src="personal paintings\IMG_1154.JPG" alt="5 Terre" style="width:100%">
+				<div class="container">
+					<p>Father and son at the lake.</p>
+				</div>
+			</div>
+
+
+			<div class="polaroid">
+				<img src="personal paintings\IMG_1155.JPG" alt="5 Terre" style="width:100%">
+				<div class="container">
+					<p>Orange Skys/Cherry Blossums</em></p>
+				</div>
+			</div>
+
+
+			<div class="polaroid">
+				<img src="personal paintings\IMG_1156.JPG" alt="5 Terre" style="width:100%">
+				<div class="container">
+					<p>Cherry Blossums.</em></p>
+				</div>
+			</div>
+
+			<div class="polaroid">
+				<img src="personal paintings\IMG_1163.JPG" alt="5 Terre" style="width:100%">
+				<div class="container">
+					<p>Stained Glass Imitation, <em>Beauty no Beast</em></p>
+				</div>
+			</div>
+
+
+			<div class="polaroid">
+				<img src="personal paintings\IMG_1173.JPG" alt="5 Terre" style="width:100%">
+				<div class="container">
+					<p>Panda Pan</p>
+				</div>
+			</div>
+
+
+			<div class="polaroid">
+				<img src="personal paintings\IMG_1176.JPG" alt="5 Terre" style="width:100%">
+				<div class="container">
+					<p>Lake scene on four seperate canvas</p>
+				</div>
+			</div>
+
+
+
+		</center>
+
+
+
+		<script>
+
+			let mybutton = document.getElementById("myBtn");
+
+
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+
+
+
+	</body>
+</html>
